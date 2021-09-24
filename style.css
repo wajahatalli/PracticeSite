@@ -149,6 +149,7 @@ nav {
 /* .column2:hover .overlay1{
 	width: 100%;
 } */
+
 .overlay1 {
 	position: absolute;
 	bottom: 0;
@@ -204,10 +205,109 @@ nav {
 	margin: 5rem 0rem 0rem 10rem;
 }
 
+.news {
+	font-size: 20px;
+	text-decoration: none;
+}
 
+.cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 2rem 5rem 2rem 5rem;
+	height: 70vh;
+	background: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 250px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+  }
+  
+.title {
+	color: black;
+	font-size: 18px;
+}
+  
+.card p button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+  
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
 
-
+.newsletter {
+    background-image: url(images/newslatter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 100px 15px;
+    color: #fff;
+}
+.newsletter h2, .newsletter p{
+    text-align: center;
+    line-height: 34px;
+}
+.newsletter-box {
+    margin: 20px auto;
+    display: table;
+}
+.newsletter-box i {
+    background: #f7f7f7;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+}
+.newsletter .newsletter-box button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: black;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-left: 0px;
+    height: 42px;
+    margin-top: 5px;
+}
+.emailbox{
+    border: none;
+    outline: none;
+}
+.emailbox {
+    width: 0px;
+    height: 42px;
+    transition: 0.6s;
+    font-size: 16px;
+}
+.newsletter-box:hover > .emailbox, .emailbox:focus{
+    width: 280px;
+    padding: 0 10px;
+}
 
 
 
