@@ -128,9 +128,9 @@ nav {
 	transition: 1s ease;
 }
   
-/* .column1:hover .overlay{
+.column1:hover .overlay{
 	height: 100%;
-} */
+}
   
 .text {
 	white-space: wrap;
@@ -146,9 +146,9 @@ nav {
 	-ms-transform: translate(-50%, -50%);
 }
 
-/* .column2:hover .overlay1{
+.column2:hover .overlay1{
 	width: 100%;
-} */
+}
 
 .overlay1 {
 	position: absolute;
@@ -162,10 +162,10 @@ nav {
 	transition: 1s ease;
 }
 
-/* .column2:hover .overlay2{
+.column2:hover .overlay2{
 	width: 100%;
 	left: 0;
-} */
+}
 
 .overlay2 {
 	position: absolute;
