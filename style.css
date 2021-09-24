@@ -185,7 +185,7 @@ nav {
 	height: 100vh;
 	width: 100%;
 	box-sizing: border-box;
-	background: #3a4347;
+	background-color:  #33383b;
 }
 
 
@@ -195,6 +195,7 @@ nav {
 
 .nw h1 {
 	margin: 5rem 0rem 0rem 10rem;
+	color: white;
 }
 
 .bl {
@@ -203,11 +204,17 @@ nav {
 
 .bl h1 {
 	margin: 5rem 0rem 0rem 10rem;
+	color: white;
 }
 
 .news {
 	font-size: 20px;
 	text-decoration: none;
+	color: black;
+}
+
+.news a {
+	color: black;
 }
 
 .cards {
@@ -308,12 +315,6 @@ a {
     width: 280px;
     padding: 0 10px;
 }
-
-
-
-
-
-
 
 footer{
 	background-color: #292c2f;
